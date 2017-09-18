@@ -1,0 +1,25 @@
+.container{
+  height:200px;
+  width:300px;
+  display:flex;
+  flex-direction: column;
+  padding:0px;
+  border: 1px solid black;
+}
+
+.heading{
+  padding: 10px;
+  font-size: 20px;
+  margin:0 auto;
+  margin-bottom: 10px;
+
+}
+
+.settings{
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.extent,.category{
+  width:40px;
+}
