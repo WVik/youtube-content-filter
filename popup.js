@@ -10,3 +10,7 @@
 });
 
 */
+$('.revert').click(function(){
+  alert("Hello!");
+  chrome.runtime.sendMessage({ undo: true });
+})
